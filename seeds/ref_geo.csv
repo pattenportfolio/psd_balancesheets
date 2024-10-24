@@ -1,0 +1,248 @@
+countryCode,countryName,regionName
+CA,Canada,North America
+GL,Greenland,North America
+MX,Mexico,North America
+SB,St. Pierre and Miquelon,North America
+US,United States,North America
+AV,Anguilla,Caribbean
+AC,Antigua and Barbuda,Caribbean
+AA,Aruba,Caribbean
+BF,"Bahamas, The",Caribbean
+BB,Barbados,Caribbean
+BD,Bermuda,Caribbean
+VI,British Virgin Islands,Caribbean
+C1,Caribbean Basin,Caribbean
+CJ,Cayman Islands,Caribbean
+CU,Cuba,Caribbean
+DO,Dominica,Caribbean
+DR,Dominican Republic,Caribbean
+Y2,French West Indies,Caribbean
+GJ,Grenada,Caribbean
+GP,Guadeloupe,Caribbean
+HA,Haiti,Caribbean
+JM,Jamaica,Caribbean
+Y1,Leeward-Windward Islands,Caribbean
+MB,Martinique,Caribbean
+MH,Montserrat,Caribbean
+NA,Netherlands Antilles,Caribbean
+RQ,Puerto Rico,Caribbean
+SC,St. Kitts and Nevis,Caribbean
+ST,St. Lucia,Caribbean
+VC,St. Vincent and the Grenadines,Caribbean
+TD,Trinidad and Tobago,Caribbean
+TK,Turks and Caicos Islands,Caribbean
+VO,Virgin Islands of the U.S.,Caribbean
+BH,Belize,Central America
+CS,Costa Rica,Central America
+ES,El Salvador,Central America
+GT,Guatemala,Central America
+HO,Honduras,Central America
+NU,Nicaragua,Central America
+PN,Panama,Central America
+AR,Argentina,South America
+BL,Bolivia,South America
+BR,Brazil,South America
+CI,Chile,South America
+CO,Colombia,South America
+EC,Ecuador,South America
+FA,Falkland Islands (Islas Malvin,South America
+FG,French Guiana,South America
+GY,Guyana,South America
+PA,Paraguay,South America
+PE,Peru,South America
+NS,Suriname,South America
+UY,Uruguay,South America
+VE,Venezuela,South America
+AU,Austria,European Union
+S8,Belgium (without Luxembourg),European Union
+BE,Belgium-Luxembourg,European Union
+BU,Bulgaria,European Union
+HR,Croatia,European Union
+CY,Cyprus,European Union
+EZ,Czech Republic,European Union
+DA,Denmark,European Union
+EN,Estonia,European Union
+E2,EU-15,European Union
+E3,EU-25,European Union
+E4,European Union,European Union
+FI,Finland,European Union
+CZ,Former Czechoslovakia,European Union
+FR,France,European Union
+GC,German Democratic Republic,European Union
+GM,Germany,European Union
+GE,"Germany, Federal Republic of",European Union
+GR,Greece,European Union
+HU,Hungary,European Union
+EI,Ireland,European Union
+IT,Italy,European Union
+LG,Latvia,European Union
+LH,Lithuania,European Union
+LU,Luxembourg,European Union
+MT,Malta,European Union
+NL,Netherlands,European Union
+PL,Poland,European Union
+PO,Portugal,European Union
+RO,Romania,European Union
+LO,Slovakia,European Union
+SI,Slovenia,European Union
+SP,Spain,European Union
+SW,Sweden,European Union
+AM,Armenia,Former Soviet Union - 12
+AJ,Azerbaijan,Former Soviet Union - 12
+BO,Belarus,Former Soviet Union - 12
+GG,Georgia,Former Soviet Union - 12
+KZ,Kazakhstan,Former Soviet Union - 12
+KG,Kyrgyzstan,Former Soviet Union - 12
+MD,Moldova,Former Soviet Union - 12
+RS,Russia,Former Soviet Union - 12
+TI,Tajikistan,Former Soviet Union - 12
+TX,Turkmenistan,Former Soviet Union - 12
+UP,Ukraine,Former Soviet Union - 12
+UR,Union of Soviet Socialist Repu,Former Soviet Union - 12
+UZ,Uzbekistan,Former Soviet Union - 12
+BA,Bahrain,Middle East
+GZ,Gaza Strip,Middle East
+IR,Iran,Middle East
+IZ,Iraq,Middle East
+IS,Israel,Middle East
+JO,Jordan,Middle East
+KU,Kuwait,Middle East
+LE,Lebanon,Middle East
+MU,Oman,Middle East
+QA,Qatar,Middle East
+SA,Saudi Arabia,Middle East
+SY,Syria,Middle East
+TU,Turkey,Middle East
+TC,United Arab Emirates,Middle East
+WE,West Bank,Middle East
+YM,Yemen,Middle East
+YS,Yemen (Aden),Middle East
+YE,Yemen (Sanaa),Middle East
+AG,Algeria,North Africa
+EG,Egypt,North Africa
+LY,Libya,North Africa
+MO,Morocco,North Africa
+TS,Tunisia,North Africa
+AO,Angola,Sub-Saharan Africa
+DM,Benin,Sub-Saharan Africa
+BC,Botswana,Sub-Saharan Africa
+IO,British Ind. Ocean Territory,Sub-Saharan Africa
+UV,Burkina Faso,Sub-Saharan Africa
+BY,Burundi,Sub-Saharan Africa
+CV,Cabo Verde,Sub-Saharan Africa
+CM,Cameroon,Sub-Saharan Africa
+Y7,Canary Islands,Sub-Saharan Africa
+CT,Central African Republic,Sub-Saharan Africa
+CD,Chad,Sub-Saharan Africa
+CN,Comoros,Sub-Saharan Africa
+CF,Congo (Brazzaville),Sub-Saharan Africa
+CG,Congo (Kinshasa),Sub-Saharan Africa
+IV,Cote d'Ivoire,Sub-Saharan Africa
+DJ,Djibouti,Sub-Saharan Africa
+EK,Equatorial Guinea,Sub-Saharan Africa
+ER,Eritrea,Sub-Saharan Africa
+WZ,Eswatini,Sub-Saharan Africa
+ET,Ethiopia,Sub-Saharan Africa
+FT,Fr.Ter.Africa-Issas,Sub-Saharan Africa
+X6,French Ind. Ocean Territory,Sub-Saharan Africa
+GB,Gabon,Sub-Saharan Africa
+GA,"Gambia, The",Sub-Saharan Africa
+GH,Ghana,Sub-Saharan Africa
+GU,Guinea,Sub-Saharan Africa
+PU,Guinea-Bissau,Sub-Saharan Africa
+KE,Kenya,Sub-Saharan Africa
+LT,Lesotho,Sub-Saharan Africa
+LI,Liberia,Sub-Saharan Africa
+MA,Madagascar,Sub-Saharan Africa
+Y9,Madeira Islands,Sub-Saharan Africa
+MI,Malawi,Sub-Saharan Africa
+ML,Mali,Sub-Saharan Africa
+MR,Mauritania,Sub-Saharan Africa
+MP,Mauritius,Sub-Saharan Africa
+MZ,Mozambique,Sub-Saharan Africa
+WA,Namibia,Sub-Saharan Africa
+NG,Niger,Sub-Saharan Africa
+NI,Nigeria,Sub-Saharan Africa
+RE,Reunion,Sub-Saharan Africa
+RW,Rwanda,Sub-Saharan Africa
+TP,Sao Tome and Principe,Sub-Saharan Africa
+SG,Senegal,Sub-Saharan Africa
+SE,Seychelles,Sub-Saharan Africa
+SL,Sierra Leone,Sub-Saharan Africa
+SO,Somalia,Sub-Saharan Africa
+SF,South Africa,Sub-Saharan Africa
+OD,South Sudan,Sub-Saharan Africa
+SH,St. Helena (Br W Afr),Sub-Saharan Africa
+SU,Sudan,Sub-Saharan Africa
+TZ,Tanzania,Sub-Saharan Africa
+TO,Togo,Sub-Saharan Africa
+UG,Uganda,Sub-Saharan Africa
+WI,Western Sahara,Sub-Saharan Africa
+ZA,Zambia,Sub-Saharan Africa
+RH,Zimbabwe,Sub-Saharan Africa
+AF,Afghanistan,South Asia
+BG,Bangladesh,South Asia
+BT,Bhutan,South Asia
+IN,India,South Asia
+MV,Maldives,South Asia
+NP,Nepal,South Asia
+PK,Pakistan,South Asia
+X8,Southern Asia NEC,South Asia
+CE,Sri Lanka,South Asia
+AS,Australia,Oceania
+W7,British West Pacific Islands,Oceania
+X3,Canton and Enderbury Islands,Oceania
+FJ,Fiji,Oceania
+FP,French Polynesia,Oceania
+GN,Gilbert and Ellice Islands,Oceania
+GQ,Guam,Oceania
+MQ,Midway Islands,Oceania
+NR,Nauru,Oceania
+NC,New Caledonia,Oceania
+NZ,New Zealand,Oceania
+Z7,"Other Pacific Islands, NEC",Oceania
+PP,Papua New Guinea,Oceania
+WS,Samoa,Oceania
+BP,Solomon Islands,Oceania
+TN,Tonga,Oceania
+NQ,Trust Territory of the Pacific,Oceania
+NH,Vanuatu/New Hebrides,Oceania
+WQ,Wake Island,Oceania
+AL,Albania,Other Europe
+Y3,Azores,Other Europe
+BK,Bosnia and Herzegovina,Other Europe
+FO,Faroe Islands,Other Europe
+YO,Former Yugoslavia,Other Europe
+GI,Gibraltar,Other Europe
+IC,Iceland,Other Europe
+KV,Kosovo,Other Europe
+MJ,Montenegro,Other Europe
+MK,North Macedonia,Other Europe
+NO,Norway,Other Europe
+RB,Serbia,Other Europe
+SR,Serbia and Montenegro,Other Europe
+SZ,Switzerland,Other Europe
+UK,United Kingdom,Other Europe
+YI,Yugoslavia (>01/2001),Other Europe
+YU,Yugoslavia (>05/92),Other Europe
+BX,Brunei,Southeast Asia
+BM,Burma,Southeast Asia
+CB,Cambodia,Southeast Asia
+ID,Indonesia,Southeast Asia
+LA,Laos,Southeast Asia
+MY,Malaysia,Southeast Asia
+RP,Philippines,Southeast Asia
+SN,Singapore,Southeast Asia
+TH,Thailand,Southeast Asia
+VM,Vietnam,Southeast Asia
+V1,"Vietnam, Peoples Republic of",Southeast Asia
+V2,"Vietnam, Republic of (South)",Southeast Asia
+CH,China,East Asia
+HK,Hong Kong,East Asia
+JA,Japan,East Asia
+KN,"Korea, North",East Asia
+KS,"Korea, South",East Asia
+MC,Macau,East Asia
+MG,Mongolia,East Asia
+Z5,Ryukyu Is - Nansei Is,East Asia
+TW,Taiwan,East Asia

@@ -1,0 +1,43 @@
+unitDescription,unitId
+(1000 BUSHES)       ,1
+(1000 60 KG BAGS)   ,2
+(1000 COLONIES)     ,3
+(1000 HA)           ,4
+(1000 HEAD)         ,5
+(1000 HL)           ,6
+(1000 MT CWE)       ,7
+(1000 MT)           ,8
+(1000 PCS)          ,9
+(1000 TREES)        ,10
+(Dec. Fraction)     ,11
+(HA)                ,12
+(HECTARES)          ,13
+(KG)                ,14
+(MIL HEAD)          ,15
+(MIL PCS)           ,16
+(MILLION TREES)     ,17
+(MT RAW EQ)         ,18
+(MT RAW EW)         ,19
+(MT RE)             ,20
+(MT)                ,21
+"(MT, Net Weight)    ",22
+(PERCENT)           ,23
+(RATIO)             ,24
+(1000 CUBIC METERS) ,25
+(MT/HA)             ,26
+1000 480 lb. Bales  ,27
+(Bales/HA)          ,28
+(KG/HA)             ,29
+ACRES               ,30
+BUSHELS             ,31
+HUNDREDWEIGHT       ,32
+MILLING RATE        ,33
+BUSHELS/TON         ,34
+IMPORT MILLING RATE ,35
+Bushels             ,36
+SHORT TONS          ,37
+MILLION LBS         ,38
+BILLION LBS         ,39
+(HEAD)              ,40
+(PEOPLE)            ,41
+(MONTHS)            ,42
