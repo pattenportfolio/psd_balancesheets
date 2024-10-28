@@ -4,6 +4,7 @@ with
             product_name,
             region,
             country,
+            market_year,
             calendar_month,
             calendar_year,
             sum(if(attribute = 'Beginning Stocks', value, 0)) as beginning_stocks,
@@ -41,7 +42,7 @@ with
 
         from {{ ref("stg_commodities") }}
         where product_name = "Oilseed, Soybean"
-        group by product_name, region, country, calendar_year, calendar_month
+        group by product_name, region, country, calendar_year, calendar_month, market_year
     ),
     final as (select * from stg)
 select *
