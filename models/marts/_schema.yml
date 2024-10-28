@@ -1,0 +1,91 @@
+version: 2
+
+models:
+  - name: mart_commodities__oilseed_soybean
+    description: Balance sheet for Oilseed, Soybean
+    columns:
+      - name: product_name
+        description: The specific commodity or agricultural product, along with its form or grade if applicable (ex. "Oilseed, Soybean", "Oil, Soybean", "Wheat")
+        tests:
+          - not_null
+      - name: region
+        description: Geographical region the country belongs to
+        tests:
+          - not_null
+      - name: country
+        description: The country of origin or destination for the commodity, depending on the specific data context
+        tests:
+          - not_null
+      - name: market_year
+        description: The specific US marketing year for the commodity, which may differ from the calendar year, especially for agricultural products with seasonal cycles (ex. "2022/2023", "2023/2024")
+        tests:
+          - not_null
+      - name: calendar_year
+        description: The standard calendar year associated with the data
+        tests:
+          - not_null
+      - name: calendar_month
+        description: The specific calendar month within the calendar year
+        tests:
+          - not_null
+      - name: beginning_stocks
+        description: Stocks at the beginning of the month.
+        tests:
+          - not_null
+      - name: imports
+        description: Stocks imported in the reporting period
+        tests:
+          - not_null
+      - name: production
+        description: Stocks produced in the reporting period
+        tests:
+          - not_null
+      - name: exports
+        description: Stocks exported in the reporting period
+        tests:
+          - not_null
+      - name: crush
+        description: Oilseed Stocks diverted to producing Oil and Meal. This is not the crush spread.
+        tests:
+          - not_null
+      - name: food_use_domestic_consumption
+        description: Stocks consumed directly by the population, in manufactured food products (ex. Tofu), or food ingredients (ex. Soy Lecithin)
+        tests:
+          - not_null
+      - name: feed_waste_domestic_consumption
+        description: Stocks provided for animal feed that was wasted due to factors such as spillage and spoilage
+        tests:
+          - not_null
+      - name: ending_stocks
+        description: Leftover stocks after considering all production and consumption activites
+        tests:
+          - not_null
+      - name: total_supply
+        description: TBD
+        tests:
+          - not_null
+      - name: total_distribution
+        description: TBD
+        tests: 
+          - not_null
+      - name: area_harvested
+        description: area_harvested
+        tests:
+          - not_null
+      - name: yield
+        description: crop yield. TODO - add units
+        tests:
+          - not_null
+      - name: yield_per_area_harvested
+        description: crop yielded per area harvested. TODO - consider area planted
+        tests:
+          - not_null
+      - name: stocks_to_use
+        description: need to recalc
+        tests:
+          - not_null
+      - name: imports_to_exports
+        description: Ratio of imported to exported stocks
+        tests:
+          - not_null
+
