@@ -43,6 +43,12 @@ models:
     +persist_docs:
       relation: true
       columns: true
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: view
     
 seeds:
   psd_balancesheets:
