@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: mart_commodities__oilseed_soybean
+  - name: mart_commodities__oilseed_soybean.sql
     description: Balance sheet for Oilseed, Soybean
     columns:
       - name: product_name

@@ -1,5 +1,5 @@
 version: 2
 
 models:
-  - name: int_commodities_balancesheet
+  - name: int_commodities_balancesheet.sql
     description: Pivots all commodities 
