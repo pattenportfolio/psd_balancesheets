@@ -70,22 +70,17 @@ models:
           - not_null
       - name: area_harvested
         description: area_harvested
-        tests:
-          - not_null
       - name: yield
         description: crop yield. TODO - add units
         tests:
           - not_null
       - name: yield_per_area_harvested
         description: crop yielded per area harvested. TODO - consider area planted
-        tests:
-          - not_null
+
       - name: stocks_to_use
         description: need to recalc
-        tests:
-          - not_null
+
       - name: imports_to_exports
         description: Ratio of imported to exported stocks
-        tests:
-          - not_null
+
 

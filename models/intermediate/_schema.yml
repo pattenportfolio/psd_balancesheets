@@ -1,5 +1,5 @@
 version: 2
 
 models:
-  - name: int_commodities_balancesheets
-    description: Pivots all commodities 
+  - name: int_commodities__balancesheets
+    description: Pivots all commodities to make pseudo-balance sheets
