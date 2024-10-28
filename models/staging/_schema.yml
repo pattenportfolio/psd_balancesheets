@@ -2,7 +2,8 @@
 version: 2
 
 models:
-  - name: stg_commodities
+  - name: stg_commodities.sql
+    description: Staging table that enriches source raw data with geographical reference data 
     columns:
       - name: product_name
         description: The specific commodity or agricultural product, along with its form or grade if applicable (ex. "Oilseed, Soybean", "Oil, Soybean", "Wheat")

@@ -23,11 +23,27 @@ with
             sum(if(attribute = 'Total Distribution', value, 0)) as total_distribution,
 
             sum(if(attribute = 'Area Harvested', value, 0)) as area_harvested,
-            sum(if(attribute = 'Yield', value, 0)) as yield
+            sum(if(attribute = 'Yield', value, 0)) as yield,
+            safe_divide(
+                sum(if(attribute = 'Yield', value, 0)),
+                sum(if(attribute = 'Area Harvested', value, 0))
+            ) as yield_per_area_harvested,
+
+            safe_divide(
+                sum(if(attribute = 'Beginning Stocks', value, 0)),
+                sum(if(attribute = 'Ending Stocks', value, 0))
+            ) as stocks_to_use,
+            
+            safe_divide(
+                sum(if(attribute = 'Imports', value, 0)),
+                sum(if(attribute = 'Exports', value, 0))
+            ) as imports_to_exports
+
         from {{ ref("stg_commodities") }}
         where product_name = "Oilseed, Soybean"
         group by product_name, region, country, calendar_year, calendar_month
     ),
     final as (select * from stg)
 select *
-from final order by calendar_year desc, calendar_month desc, total_supply desc
+from final
+order by calendar_year desc, calendar_month desc, total_supply desc
