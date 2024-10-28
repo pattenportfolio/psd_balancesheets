@@ -2,7 +2,7 @@
 version: 2
 
 models:
-  - name: stg_commodities.sql
+  - name: stg_commodities
     description: Staging table that enriches source raw data with geographical reference data 
     columns:
       - name: product_name

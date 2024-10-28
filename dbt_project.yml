@@ -39,7 +39,10 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   psd_balancesheets:
-    +materialized: table  
+    +materialized: table
+    +persist_docs:
+      relation: true
+      columns: true
     
 seeds:
   psd_balancesheets:
