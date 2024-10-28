@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: psd
+    description: This table has raw monthly histrical production, supply and distribution data for all countries and commodities tracked by the USDFA Foreign Agriculture Service
+    database: jbp245-fe-prep  
+    tables:
+      - name: raw_commodities

@@ -2,7 +2,7 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'psd_balance_sheets'
+name: 'psd_balancesheets'
 version: '1.0.0'
 config-version: 2
 dbt-cloud:
@@ -38,7 +38,15 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  psd_balance_sheets:
-    # Applies to all files under models/example/
-    example:
-      +materialized: table
+  psd_balancesheets:
+    +materialized: table  
+    
+seeds:
+  psd_balancesheets:
+    #+schema: ref_psd__seeds
+    ref_attributes: 
+    ref_commodities:
+    ref_geo:
+    ref_units:
+
+

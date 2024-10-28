@@ -1,0 +1,39 @@
+
+version: 2
+
+models:
+  - name: stg_commodities
+    columns:
+      - name: product_name
+        description: The specific commodity or agricultural product, along with its form or grade if applicable (ex. "Oilseed, Soybean", "Oil, Soybean", "Wheat")
+        tests:
+          - not_null
+      - name: country
+        description: The country of origin or destination for the commodity, depending on the specific data context.
+        tests:
+          - not_null
+      - name: market_year
+        description: The specific US marketing year for the commodity, which may differ from the calendar year, especially for agricultural products with seasonal cycles (ex. "2022/2023", "2023/2024")
+        tests:
+          - not_null
+      - name: calendar_year
+        description: The standard calendar year associated with the data.
+        tests:
+          - not_null
+      - name: calendar_month
+        description: The specific calendar month within the calendar year.
+        tests:
+          - not_null
+      - name: attribute
+        description: The particular characteristic or quality of the commodity being measured.
+        tests:
+          - not_null
+      - name: unit
+        description: The unit of measurement for the attribute.
+        tests:
+          - not_null
+      - name: value
+        description: The numerical value of the attribute for the specified product, country, and time period.
+        tests:
+          - not_null
+              
