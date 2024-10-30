@@ -1,8 +1,10 @@
 version: 2
 
 models:
+  - name: mart_commodities__coffee_green
+    description: Balance Sheet for Coffee, Green
   - name: mart_commodities__oilseed_soybeans
-    description: Balance sheet for Oilseed, Soybean
+    description: Balance Sheet for Oilseed, Soybean
     columns:
       - name: product_name
         description: The specific commodity or agricultural product, along with its form or grade if applicable (ex. "Oilseed, Soybean", "Oil, Soybean", "Wheat")
@@ -66,7 +68,7 @@ models:
           - not_null
       - name: total_distribution
         description: TBD
-        tests: 
+        tests:
           - not_null
       - name: area_harvested
         description: area_harvested
@@ -82,5 +84,3 @@ models:
 
       - name: imports_to_exports
         description: Ratio of imported to exported stocks
-
-
